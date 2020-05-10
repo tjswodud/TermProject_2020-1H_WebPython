@@ -71,7 +71,7 @@ l1 = tk.Label(window, text = '')
 l2 = tk.Label(window, text = '결과:')
 l2.grid(row=1, column=2)
 
-client_id = "MxAYTCOsbligdEvHngib"
-client_secret = "3iRpVzgyLb"
+client_id = "secret"
+client_secret = "secret"
 
 window.mainloop()
