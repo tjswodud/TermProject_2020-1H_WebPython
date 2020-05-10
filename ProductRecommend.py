@@ -4,8 +4,8 @@ import urllib.request
 import requests
 import re
 
-client_id = "MxAYTCOsbligdEvHngib"
-client_secret = "3iRpVzgyLb"
+client_id = "secret"
+client_secret = "secret"
 
 searchWord = input("검색할 단어를 입력하세요: ")
 newSearchWord = searchWord + '후기'
