@@ -1,6 +1,6 @@
 # link Button 제거, title만 나오게 업데이트 했으며 Label에서 Button으로 변환
 # title Button 클릭 시 해당 링크로 이동하도록 구현하려 했으나, 어느 버튼을 눌러도 마지막 버튼의 링크로 이동하게 되는 버그 발생
-# 버그 
+# 버그 수정중.
 
 import os
 import sys
