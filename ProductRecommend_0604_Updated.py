@@ -2,6 +2,7 @@
 # User의 선택으로 후기 블로그 url에 접속할 수 있도록 구현함.
 # 반복문, 조건문으로 다른 후기도 볼 것인지 물어보고, 다시 선택이 가능하도록 구현함.
 # 프로그램 종료 구현
+# Editor : Changed from Python IDLE -> Atom Editor
 
 import os
 import io
