@@ -4,13 +4,7 @@
 import io
 import os
 import sys
-import requests
-import urllib.request
-import re
 import webbrowser as wb
-
-sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
-sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 
 class Shopping:
     def goToShopSite(self):
