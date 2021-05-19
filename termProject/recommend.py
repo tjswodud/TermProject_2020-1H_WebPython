@@ -11,6 +11,8 @@ class Recommend:
     titleList = []
     linkList = []
     def showUrl(self):
+        self.titleList.clear()
+        self.linkList.clear()
         newSearchWord = self.searchWord + '사용 후기'
         encText = urllib.parse.quote(newSearchWord)
         url = 'https://openapi.naver.com/v1/search/blog?query=' + encText

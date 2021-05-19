@@ -14,6 +14,7 @@ class TermProject:
         # self.productRecommend.searchWord = input('검색어를 입력하세요: ')
         self.productRecommend.searchWord = searchWord
         self.productRecommend.showUrl()
+        return self.productRecommend.titleList
     
     def run(self):
         shoppingSite = shopping.Shopping()
